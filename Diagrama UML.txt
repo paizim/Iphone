@@ -1,0 +1,44 @@
++----------------------+
+| <<interface>>        |
+| ReprodutorMusical    |
++----------------------+
+| +tocar(): void       |
+| +pausar(): void      |
+| +selecionarMusica(String): void |
++----------------------+
+
++----------------------+
+| <<interface>>        |
+| AparelhoTelefonico   |
++----------------------+
+| +ligar(String): void |
+| +atender(): void     |
+| +iniciarCorreioVoz(): void |
++----------------------+
+
++----------------------+
+| <<interface>>        |
+| NavegadorInternet    |
++----------------------+
+| +exibirPagina(String): void |
+| +adicionarNovaAba(): void  |
+| +atualizarPagina(): void   |
++----------------------+
+
+
++------------------------------+
+| iPhone                      |
++------------------------------+
+| +tocar(): void              |
+| +pausar(): void             |
+| +selecionarMusica(String): void |
+| +ligar(String): void        |
+| +atender(): void            |
+| +iniciarCorreioVoz(): void  |
+| +exibirPagina(String): void |
+| +adicionarNovaAba(): void   |
+| +atualizarPagina(): void    |
++------------------------------+
+<<implements>> ReprodutorMusical
+<<implements>> AparelhoTelefonico
+<<implements>> NavegadorInternet
